@@ -14,7 +14,7 @@ QuickRestartMax=5
 #How many seconds to wait if there is #QuickRestartMax instant crashes? 
 QuickRestartWait=20 
 
-# WILL STOP SRCDS FROM STARTING IF SET TO TRUE!
+# WILL STOP SRCDS FROM STARTING IF SET TO TRUE! Used only for redirected STDOut
 HideWindow=false
 
 
@@ -23,10 +23,10 @@ HideWindow=false
 #Watch server protocol?
 PW_Enable=true
 
-#Protocol IP to monitor
-PW_IP=74.91.127.26
+#Protocol IP to monitor (The public IP of you r server)
+PW_IP=127.0.0.1
 
-#What port to monitor on 
+#What port to monitor on (The port of your server)
 PW_PORT=27015
 
 #Delay between checks
