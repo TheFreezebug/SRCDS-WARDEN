@@ -60,6 +60,10 @@ ProtoWatch periodically querys your server to see if it will respond to a challe
  
  StartupDelay + ((PingTimeout + PingDelay) * MaxFailedPings) + 2
 
+## CONFIG.WA Example
+
+Check the 'examples' folder in the repo :)
+
 # Warranty
 WARDEN is provided with ABSOLUTELY NO WARRANTY, express or implied. I am not responsible for any damages or sufferage that may be caused by the use or misuse of WARDEN. 
 
