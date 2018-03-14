@@ -1,0 +1,42 @@
+#If you don't know what these are just stop right now. 
+
+EXECUTABLE=srcds.exe
+parameters=-console -game garrysmod +host_workshop_collection 147608162 -authkey FC198EA5435F3DC82A2AE6149A6510ED +exec server +map gm_functional_flatgrass 
+
+
+
+#How long should be considered an instant crash?
+QuickRestartTime=20
+
+#How many instant crashes can we have?
+QuickRestartMax=5
+
+#How many seconds to wait if there is #QuickRestartMax instant crashes? 
+QuickRestartWait=20 
+
+# WILL STOP SRCDS FROM STARTING IF SET TO TRUE!
+HideWindow=false
+
+
+##############PROTOWATCH SETTINGS################
+
+#Watch server protocol?
+PW_Enable=true
+
+#Protocol IP to monitor
+PW_IP=74.91.127.26
+
+#What port to monitor on 
+PW_PORT=27015
+
+#Delay between checks
+PW_PingDelay=2
+
+#How long the server has to respond to pass a ping. 
+PW_PingTimeout=2
+
+#How many times can it fail a ping before its killed
+PW_MaxFailedPings=6
+
+#how long does it take to start 
+PW_StartupDelay=40
